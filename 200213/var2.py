@@ -1,0 +1,10 @@
+color=["red","green","blue"]
+print(color[2])
+color[1]="purple"
+print(color)
+lucian={"atk":75,"chroma":"gold"}
+print(lucian)
+color[1]=lucian["chroma"]
+lucian["chroma"]=color[1]
+print(lucian)
+print(color)
